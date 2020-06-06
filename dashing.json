@@ -1,0 +1,14 @@
+{
+    "name": "Swift Package Manager",
+    "package": "swiftpm",
+    "index": "index.html",
+    "selectors": {
+        "h1": "Type",
+        "pre .nf": "Function"
+    },
+    "ignore": [
+    ],
+    "icon32x32": "icon32x32.png",
+    "allowJS": false,
+    "ExternalURL": "https://docs.swift.org/package-manager/"
+}
