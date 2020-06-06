@@ -11,8 +11,9 @@ Clone the repo and fetch the latest swift.org docs:
 
     git clone https://github.com/ThatsJustCheesy/Swift-Package-Manager-docset
     wget --recursive https://docs.swift.org/package-manager
-    mv package-manager/* Swift-Package-Manager-docset/
-    rmdir package-manager
+    mv docs.swift.org/package-manager/* Swift-Package-Manager-docset/
+    rmdir docs.swift.org/package-manager
+    rmdir docs.swift.org
 
 Then run `build.sh`. If you don't already have the [`dashing`](https://github.com/technosophos/dashing) docset generator, the script prompts to install it for you using `brew`.
 
